@@ -26,6 +26,16 @@ node -e "const c=require('./config/sources.example.json');console.log('DEFAULT_S
 
 把本文件放到任意公网可访问的地址（本仓库的 raw 地址即可），然后：
 
+```
+https://raw.githubusercontent.com/tutumumu777/LibreTV/main/config/sources.example.json
+```
+
+raw 访问不稳定时可换 jsDelivr 镜像：
+
+```
+https://cdn.jsdelivr.net/gh/tutumumu777/LibreTV@main/config/sources.example.json
+```
+
 **设置 → 源管理 → 数据源订阅 → 填入地址 → 订阅**
 
 订阅由服务端拉取，不受浏览器 CORS 限制；首次订阅会自动勾选点播源、启用直播源，之后每 24 小时静默刷新。订阅来源的条目在界面上带「订阅」标识，单独修改会在下次同步时被覆盖。

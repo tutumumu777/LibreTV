@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "name": "LibreTV 精选源（点播 15 · 直播 4）",
+  "sources": [
+    { "name": "非凡资源", "url": "https://cj.ffzyapi.com/api.php/provide/vod" },
+    { "name": "量子资源", "url": "https://cj.lziapi.com/api.php/provide/vod" },
+    { "name": "暴风资源", "url": "https://bfzyapi.com/api.php/provide/vod" },
+    { "name": "极速资源", "url": "https://jszyapi.com/api.php/provide/vod" },
+    { "name": "新浪资源", "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod" },
+    { "name": "虎牙资源", "url": "https://www.huyaapi.com/api.php/provide/vod" },
+    { "name": "金鹰资源", "url": "https://jyzyapi.com/api.php/provide/vod" },
+    { "name": "光速资源", "url": "https://api.guangsuapi.com/api.php/provide/vod" },
+    { "name": "360资源", "url": "https://360zy.com/api.php/provide/vod" },
+    { "name": "魔都资源", "url": "https://www.mdzyapi.com/api.php/provide/vod" },
+    { "name": "如意资源", "url": "https://cj.rycjapi.com/api.php/provide/vod" },
+    { "name": "ikun资源", "url": "https://ikunzyapi.com/api.php/provide/vod" },
+    { "name": "飘零资源", "url": "https://p2100.net/api.php/provide/vod" },
+    { "name": "最大资源", "url": "https://api.zuidapi.com/api.php/provide/vod" },
+    { "name": "优质资源", "url": "https://api.1080zyku.com/inc/api_mac10.php" }
+  ],
+  "liveSources": [
+    { "name": "VBSKY 综合", "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u" },
+    { "name": "Free-TV 中国", "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_china.m3u8" },
+    { "name": "IPTV-org 台湾", "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u" },
+    { "name": "IPTV-org 香港", "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/hk.m3u" }
+  ]
+}
